@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>APEX Care Hospital | Appointments</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header class="topbar"><div class="brand">APEX Care Hospital</div><nav><a href="index.html">Home</a><a href="dashboard.html">Dashboard</a></nav></header>
+<main class="form-page"><form id="appointmentForm" class="card form-card"><h1>Book Appointment</h1>
+<label>Doctor ID<input type="number" id="doctor_id" required min="1"></label>
+<label>Appointment date/time<input type="datetime-local" id="appointment_date" required></label>
+<label>Reason (demo only)<textarea id="reason" maxlength="500"></textarea></label>
+<button class="btn" type="submit">Book</button><p id="message" class="message"></p></form></main>
+<script src="js/appointments.js"></script></body></html>
